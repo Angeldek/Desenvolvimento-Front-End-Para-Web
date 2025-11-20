@@ -32,6 +32,9 @@ A disciplina tem como foco a criação de interfaces web modernas, acessíveis e
 
 👤 Autor
 Luisângel Silva
+
 Curso: Análise e Desenvolvimento de Sistemas – 1º semestre
+
 Instituição: UDF
+
 Contato: angelschalcher@hotmail.com
