@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro Acessível</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: #f3f3f3;
+        }
+    </style>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+        <div class="container">
+            <!-- Logomarca minimalista -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./imagens/logo.jpg" alt="Logomarca Carros Acessíveis" height="40" class="me-2">
+                <div>
+                    <span class="fw-semibold text-dark">Carros Acessíveis</span><br>
+                    <small class="text-muted"></small>
+                </div>
+            </a>
+            <!-- Botão para menu em telas pequenas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu colapsável -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="vw.html">VW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="fiat.html">FIAT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="chevrolet.html">CHEVROLET</a>
+                    </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="container text-center py-4">
+        <h1> Carros Acessíveis </h1>
+        <p>Bem-vindo à Carro Acessível, sua loja de carros e acessórios. Confira nossas promoções. Receba informações sobre nossos lançamentos por email.</p>
+    </header>
+        <!-- Imagem de destaque -->
+    <section class="bg-light py-5 text-center">
+        <div class="container">
+            <img src="./imagens/img20200924143136417-768x479.jpg" alt="Imagem Carro" class="hero-img mb-4">
+            <h1 class="section-title"> Seu próximo carro por menos </h1>
+            <p class="section-subtitle">Mobilidade, conforto e liberdade para todos</p>
+        </div>
+    </section>
+    <!-- Conteúdo principal com duas colunas -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Coluna 1 -->
+                <div class="col-md-6">
+                    <h2 class="text-primary">Bem-vindo ao site Carro Acessível</h2>
+                    <p class="lead text-muted">
+                        <b>Descubra as melhores opções de veículos com conforto, segurança e tecnologia para todos. 
+    Junte-se a nós e encontre o carro ideal para sua mobilidade!</b>
+                    </p>
+                </div>
+                <!-- Coluna 2 -->
+                <div class="col-md-6">
+                    <h2 class="text-success">Como chegar</h2>
+                    <p class="lead text-muted">
+                        Você nos encontrará bem no centro da Cidade do Automóvel, na Rua Sem Número. Se precisar de ajuda para nos localizar, verifique nossas instruções detalhadas. Venha no visitar !!!.
+                    </p>
+                </div>
+                <!-- Mapa interativo -->
+                <section class="py-5 bg-white">
+                    <div class="container">
+                        <h2 class="text-center text-purple mb-4">Mapa da Cidade do Automóvel</h2>
+                        <div id="map" style="height: 400px; border-radius: 0.5rem;"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+        <!-- Rodapé com redes sociais -->
+    <footer style="background: linear-gradient(135deg, #000000 0%, #000000 100%);
+                color: #fff;
+                text-align: center;
+                padding: 2rem 1rem;
+                font-family: 'Poppins', sans-serif;">
+        <div class="container">
+            <p style="margin-bottom: 0.5rem; font-size: 1.2rem;">
+                Explore os Carros mais baratos e com uma ótima qualidade!
+            </p>
+            <!-- Ícones de redes sociais -->
+            <div style="margin: 1rem 0;">
+                <a href="https://www.instagram.com" target="_blank" style="color: #fff; margin: 0 10px;">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" style="color: #fff; margin: 0 10px;">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" style="color: #fff; margin: 0 10px;">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+            </div>
+            <p style="margin-bottom: 0; font-size: 0.9rem;">
+               © 2025 Carro Acessível — Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+        <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/configuracoes.js"></script>
+    <script src="js/configuracoes.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
