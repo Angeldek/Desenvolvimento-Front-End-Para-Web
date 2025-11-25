@@ -13,7 +13,9 @@ A disciplina tem como foco a criação de interfaces web modernas, acessíveis e
 - Adotar boas práticas de acessibilidade e usabilidade.
 
 📁 Estrutura do repositório 
-| HTML |  CSS | Javascript | Projetos | READMEmd 
+
+| HTML |  CSS | Javascript | Projetos | READMEmd |
+|------|------|------------|----------|----------|
 
 
 🛠️ Tecnologias e ferramentas
