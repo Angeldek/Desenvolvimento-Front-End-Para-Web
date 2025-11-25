@@ -30,8 +30,7 @@ A disciplina tem como foco a criação de interfaces web modernas, acessíveis e
 - Visual Studio Code
 - Live Server / Navegador Web
 
-Rafael Soares de Almeida
-
+👨‍🏫 Professor(a) Rafael Soares de Almeida
 
 👤 Autor
 Luisângel Silva
