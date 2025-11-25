@@ -12,6 +12,15 @@ A disciplina tem como foco a criação de interfaces web modernas, acessíveis e
 - Desenvolver páginas web compatíveis com diferentes dispositivos e navegadores.
 - Adotar boas práticas de acessibilidade e usabilidade.
 
+# 📊 Exemplo de Tabela no README
+
+| Semana | Conteúdo                  | Atividade              |
+|--------|---------------------------|------------------------|
+| 1      | Introdução ao Design      | Leitura de artigos     |
+| 2      | Princípios de Usabilidade | Exercício prático      |
+| 3      | Prototipagem              | Projeto em Figma       |
+| 4      | Avaliação de Interfaces   | Apresentação em grupo  |
+
 📁 Estrutura do repositório
 |  |  | 
 | html|  | 
